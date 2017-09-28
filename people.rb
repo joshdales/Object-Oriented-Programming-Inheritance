@@ -1,3 +1,11 @@
+class Person
+
+  def initialize(name)
+    @name = first_name
+  end
+
+end
+
 class Student
 
   def learn
