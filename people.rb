@@ -27,7 +27,10 @@ class Instructor < Person
 end
 
 instructor = Instructor.new('Nadia')
-student = Instructor.new('Chris')
-
 puts instructor.greeting
+
+student = Student.new('Chris')
 puts student.greeting
+
+puts instructor.teach
+puts student.learn
