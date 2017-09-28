@@ -34,3 +34,5 @@ puts student.greeting
 
 puts instructor.teach
 puts student.learn
+
+puts student.teach # Student and Instructor both inherit methods from Person, but can not see each other's methods. They can take from parents - not sibilings
